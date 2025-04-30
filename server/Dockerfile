@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY *.json ./
 
-RUN npm run install 
+RUN npm install 
 #staage second
 FROM node:18-alpine AS deployer
 
