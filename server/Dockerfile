@@ -7,7 +7,7 @@ COPY *.json ./
 
 RUN npm run install 
 #staage second
-FROM node:18-alipine AS deployer
+FROM node:18-alpine AS deployer
 
 COPY . . 
 
